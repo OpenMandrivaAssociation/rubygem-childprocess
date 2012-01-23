@@ -6,8 +6,8 @@
 
 Summary: A simple and reliable solution for controlling external programs running in the background
 Name: rubygem-%{gemname}
-Version: 0.2.0
-Release: %mkrel 1
+Version: 0.3.0
+Release: 1
 Group: Development/Ruby 
 License: MIT
 URL: http://github.com/jarib/childprocess
@@ -62,6 +62,7 @@ chmod 644 %{buildroot}%{geminstdir}/spec/*.rb
 %doc %{geminstdir}/LICENSE
 %doc %{geminstdir}/README.md
 %{geminstdir}/lib
+%{geminstdir}/.travis.yml
 %{gemdir}/cache/%{gemname}-%{version}.gem
 %{gemdir}/specifications/%{gemname}-%{version}.gemspec
 
