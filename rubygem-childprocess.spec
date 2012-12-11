@@ -55,3 +55,19 @@ Documents, RDoc & RI documentation for %{name}.
 
 %files doc
 %{ruby_gemdir}/doc/%{rbname}-%{version}
+
+
+%changelog
+* Wed Feb 15 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.3.0-2
++ Revision: 774161
+- mass rebuild of ruby packages against ruby 1.9.1
+
+* Tue Jan 24 2012 Alexander Khrukin <akhrukin@mandriva.org> 0.3.0-1
++ Revision: 767838
+- files section rewritten
+- version update 0.3.0
+
+* Wed Sep 07 2011 Alexander Barakin <abarakin@mandriva.org> 0.2.0-1
++ Revision: 698570
+- imported package rubygem-childprocess
+
