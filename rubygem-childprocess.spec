@@ -1,6 +1,6 @@
 # Generated from childprocess-0.3.0.gem by gem2rpm5 0.6.5 -*- rpm-spec -*-
 %define	rbname	childprocess
-%define	desc	A simple and reliable solution for controlling external programs running in the background
+%define	desc	Solution for controlling external programs running in the background
 
 Summary:	%{desc}
 Name:		rubygem-%{rbname}
@@ -15,8 +15,9 @@ BuildRequires:	rubygems
 BuildArch:	noarch
 
 %description
-This gem aims at being a simple and reliable solution for controlling external
-programs running in the background on any Ruby / OS combination.
+This gem aims at being a simple and reliable solution
+for controlling external programs running in the background
+on any Ruby / OS combination.
 
 %package	doc
 Summary:	Documentation for %{name}
