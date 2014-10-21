@@ -38,20 +38,20 @@ Documents, RDoc & RI documentation for %{name}.
 
 %files
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/jruby
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/jruby/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/tools
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/tools/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/unix
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/unix/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/unix/platform
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/unix/platform/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/windows
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/windows/*.rb
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/*.rb
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/jruby
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/jruby/*.rb
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/tools
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/tools/*.rb
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/unix
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/unix/*.rb
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/unix/platform
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/unix/platform/*.rb
+# %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/windows
+# %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/windows/*.rb
 %{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
 
 %files doc
