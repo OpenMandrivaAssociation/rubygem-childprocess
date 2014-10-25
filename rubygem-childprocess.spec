@@ -16,22 +16,22 @@ This gem aims at being a simple and reliable solution for controlling external
 programs running in the background on any Ruby / OS combination.
 
 %files
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/jruby
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/jruby/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/tools
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/tools/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/unix
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/unix/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/unix/platform
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/unix/platform/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/windows
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/childprocess/windows/*.rb
-%{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
+%dir %{gem_dir}/gems/%{rbname}-%{version}
+%dir %{gem_dir}/gems/%{rbname}-%{version}/lib
+%{gem_dir}/gems/%{rbname}-%{version}/lib/*.rb
+%dir %{gem_dir}/gems/%{rbname}-%{version}/lib/childprocess
+%{gem_dir}/gems/%{rbname}-%{version}/lib/childprocess/*.rb
+%dir %{gem_dir}/gems/%{rbname}-%{version}/lib/childprocess/jruby
+%{gem_dir}/gems/%{rbname}-%{version}/lib/childprocess/jruby/*.rb
+%dir %{gem_dir}/gems/%{rbname}-%{version}/lib/childprocess/tools
+%{gem_dir}/gems/%{rbname}-%{version}/lib/childprocess/tools/*.rb
+%dir %{gem_dir}/gems/%{rbname}-%{version}/lib/childprocess/unix
+%{gem_dir}/gems/%{rbname}-%{version}/lib/childprocess/unix/*.rb
+%dir %{gem_dir}/gems/%{rbname}-%{version}/lib/childprocess/unix/platform
+%{gem_dir}/gems/%{rbname}-%{version}/lib/childprocess/unix/platform/*.rb
+%dir %{gem_dir}/gems/%{rbname}-%{version}/lib/childprocess/windows
+%{gem_dir}/gems/%{rbname}-%{version}/lib/childprocess/windows/*.rb
+%{gem_dir}/specifications/%{rbname}-%{version}.gemspec
 
 #----------------------------------------------------------------------------
 
@@ -44,7 +44,7 @@ Requires:	%{name} = %{EVRD}
 Documents, RDoc & RI documentation for %{name}.
 
 %files doc
-%{ruby_gemdir}/doc/%{rbname}-%{version}
+%{gem_dir}/doc/%{rbname}-%{version}
 
 #----------------------------------------------------------------------------
 
