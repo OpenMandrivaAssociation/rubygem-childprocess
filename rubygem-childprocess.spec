@@ -3,7 +3,7 @@
 Summary:	Control external programs running in the background
 Name:		rubygem-%{rbname}
 Version:	0.5.3
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Ruby
 Url:		https://rubygems.org/gems/%{rbname}
